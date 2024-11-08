@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FontShift</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="p-4 relative">
+  <h1 class="text-xl font-bold mb-4">Choose a Font</h1>
+  <div class="flex gap-2 mt-2">
+    <div>
+      <input class="p-2 border border-gray-500 rounded" type="text" id="font-search" placeholder="Search fonts" />
+      <!-- Suggestions Container -->
+      <div id="font-suggestions" class="absolute mt-2 bg-white rounded-md shadow-md max-h-48 overflow-y-auto"></div>
+    </div>
+    <button id="search-apply-font" class="bg-blue-500 text-white rounded px-3">Apply</button>
+  </div>
+
+  <script src="assets/js/getFonts.js"></script>
+  <script src="assets/js/popup.js"></script>
+</body>
+</html>

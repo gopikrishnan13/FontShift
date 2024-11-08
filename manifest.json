@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "FontShift",
+    "version": "1.0",
+    "description": "FontShift is a lightweight and intuitive browser extension designed to give you complete control over the fonts on any website. Whether you want to enhance readability, customize your browsing experience, or simply try out new font styles, FontShift makes it easy to change the font settings of any webpage on the fly",
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/icons/fontshift-16.png",
+        "48": "assets/icons/fontshift-48.png",
+        "128": "assets/icons/fontshift-128.png"
+      }
+    },
+    "icons": {
+      "16": "assets/icons/fontshift-16.png",
+      "48": "assets/icons/fontshift-48.png",
+      "128": "assets/icons/fontshift-128.png"
+    }
+  }
+  
